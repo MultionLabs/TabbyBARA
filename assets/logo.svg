@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>New Project</title>
+	<defs>
+		<image  width="800" height="800" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAMgAQMAAADhvpQrAAAAAXNSR0IB2cksfwAAAANQTFRFIxMtuUHYhAAAAS1JREFUeJztzUERAAAMAqDZv/Ra+PCgALmCSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKRSCQSiUQikUgkEolEIpFIJBKJRCKR7CQPIHEDIbMPz1oAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 200px;fill: #ffff00;font-weight: 400;font-family: "FredokaOne-Regular", "Fredoka One" } 
+		.t1 { font-size: 200px;fill: #23132d;font-weight: 400;font-family: "FredokaOne-Regular", "Fredoka One" } 
+		.t2 { font-size: 200px;fill: #ff6600;font-weight: 400;font-family: "FredokaOne-Regular", "Fredoka One" } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<text id="Tabby BARA" style="transform: matrix(1,0,0,1,111,356)" >
+		<tspan x="0" y="0" class="t0">T</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">b</tspan><tspan  y="0" class="t0">b</tspan><tspan  y="0" class="t0">y</tspan><tspan  y="0" class="t1">
+</tspan>
+		<tspan x="0" y="240" class="t2">B</tspan><tspan  y="240" class="t2">A</tspan><tspan  y="240" class="t2">R</tspan><tspan  y="240" class="t2">A
+</tspan>
+	</text>
+</svg>
