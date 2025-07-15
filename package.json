@@ -1,0 +1,34 @@
+{
+    "name": "tabbybara",
+    "version": "1.0.0",
+    "description": "A Firefox extension that adds a keyboard shortcut to open a new tab in the same container and tab group as the current tab.",
+    "main": "background.js",
+    "scripts": {
+        "build": "web-ext build",
+        "sign": "web-ext sign",
+        "lint": "web-ext lint",
+        "run": "web-ext run"
+    },
+    "keywords": [
+        "firefox",
+        "extension",
+        "addon",
+        "tabs",
+        "containers",
+        "tab-groups",
+        "keyboard-shortcut"
+    ],
+    "author": "TabbyBARA Team",
+    "license": "MIT",
+    "devDependencies": {
+        "web-ext": "^7.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MultionLab/TabbyBARA.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MultionLab/TabbyBARA/issues"
+    },
+    "homepage": "https://github.com/MultionLab/TabbyBARA#readme"
+}
