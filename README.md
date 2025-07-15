@@ -26,7 +26,7 @@
 
 [![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-💖-pink?style=for-the-badge)](https://github.com/sponsors/maxskorr)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Firefox Add-ons](https://img.shields.io/badge/Firefox-Add--ons-orange.svg?style=for-the-badge)](https://addons.mozilla.org/)
+[![Firefox Add-ons](https://img.shields.io/badge/Firefox-Add--ons-orange.svg?style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/tabbybara/)
 [![Platform](https://img.shields.io/badge/Platform-Firefox-lightgrey.svg?style=for-the-badge)](https://www.mozilla.org/firefox/)
 
 </div>
@@ -53,9 +53,8 @@
 ## Installation
 
 ### From Firefox Add-ons Store (Recommended)
-1. Visit the [Firefox Add-ons store](https://addons.mozilla.org/)
-2. Search for "TabbyBARA"
-3. Click "Add to Firefox"
+1. Visit the [TabbyBARA page on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tabbybara/)
+2. Click "Add to Firefox"
 
 ### Manual Installation (Development)
 1. Download or clone this repository
@@ -85,25 +84,19 @@ This extension requires the following permissions:
 
 ## Development
 
-### Project Structure
-```
-tabbybara/
-├── manifest.json      # Extension manifest
-├── background.js      # Background script
-├── icons/            # Extension icons
-│   ├── icon-16.png
-│   ├── icon-48.png
-│   └── icon-128.png
-└── README.md         # This file
-```
-
 ### Building for Distribution
 
-1. Create a ZIP file containing all the files
+1. Build the extension package:
+   ```bash
+   web-ext build --overwrite-dest
+   ```
+
 2. Sign the extension using the [web-ext](https://github.com/mozilla/web-ext) tool:
    ```bash
-   web-ext sign --api-key=YOUR_API_KEY --api-secret=YOUR_API_SECRET
+   web-ext sign --channel=listed --api-key=YOUR_API_KEY --api-secret=YOUR_API_SECRET
    ```
+
+The signed extension will be available in the `web-ext-artifacts/` directory.
 
 ## Contributing
 
